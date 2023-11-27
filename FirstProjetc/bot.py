@@ -63,7 +63,7 @@ def main():
     if not bot.find( "msg_anchor", matching=0.97, waiting_time=10000):
         not_found("msg_anchor")
     bot.click_relative(122, -25)
-    bot.paste("Olá, essa é uma mensagem enviada por um Bot feito em Python pela BotCity.\nAqui está o link para o Repositório: ")
+    bot.paste("Olá, essa é uma mensagem enviada por um Bot feito em Python pela BotCity.\nAqui está o link para o Repositório: https://github.com/joaovictorwg/BotCity_Teste")
     bot.enter()
 
 def not_found(label):
